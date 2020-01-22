@@ -1,4 +1,4 @@
-" vim-bootstrap 
+" vim-bootstrap
 
 "*****************************************************************************
 "" Vim-PLug core
@@ -61,6 +61,9 @@ Plug 'Shougo/vimproc.vim', {'do': g:make}
 "" Vim-Session
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-session'
+
+"" Coc-Vim
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 "" Snippets
 Plug 'honza/vim-snippets'
@@ -185,7 +188,7 @@ else
   let g:indentLine_char = '┆'
   let g:indentLine_faster = 1
 
-  
+
   if $COLORTERM == 'gnome-terminal'
     set term=gnome-256color
   else
@@ -193,7 +196,7 @@ else
       set term=xterm-256color
     endif
   endif
-  
+
 endif
 
 
