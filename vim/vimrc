@@ -285,7 +285,6 @@ let g:NERDTreeIndicatorMapCustom = {
     \ "Unknown"   : "?"
     \ }
 
-" This is what happens when you need to uses some things
 " grep.vim
 nnoremap <silent> <leader>f :Rgrep<CR>
 let Grep_Default_Options = '-IR'
